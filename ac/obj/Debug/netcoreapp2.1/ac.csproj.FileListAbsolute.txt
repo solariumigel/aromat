@@ -1,0 +1,11 @@
+D:\Aromat\aromat\ac\bin\Debug\netcoreapp2.1\ac.deps.json
+D:\Aromat\aromat\ac\bin\Debug\netcoreapp2.1\ac.runtimeconfig.json
+D:\Aromat\aromat\ac\bin\Debug\netcoreapp2.1\ac.runtimeconfig.dev.json
+D:\Aromat\aromat\ac\bin\Debug\netcoreapp2.1\ac.dll
+D:\Aromat\aromat\ac\bin\Debug\netcoreapp2.1\ac.pdb
+D:\Aromat\aromat\ac\obj\Debug\netcoreapp2.1\ac.csprojAssemblyReference.cache
+D:\Aromat\aromat\ac\obj\Debug\netcoreapp2.1\ac.csproj.CoreCompileInputs.cache
+D:\Aromat\aromat\ac\obj\Debug\netcoreapp2.1\ac.AssemblyInfoInputs.cache
+D:\Aromat\aromat\ac\obj\Debug\netcoreapp2.1\ac.AssemblyInfo.cs
+D:\Aromat\aromat\ac\obj\Debug\netcoreapp2.1\ac.dll
+D:\Aromat\aromat\ac\obj\Debug\netcoreapp2.1\ac.pdb
