@@ -1,3 +1,3 @@
-ac/bin/
-ac/obj/
-.vscode/
+/ac/bin/
+/ac/obj/
+/.vscode/
