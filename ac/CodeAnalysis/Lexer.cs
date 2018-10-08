@@ -44,7 +44,7 @@ namespace Aromat.CodeAnalysis
             {
                 var start = _position;
 
-                while(char.IsDigit(Current))
+                while(char.IsDigit(Current) || Current == ',')
                 {
                     Next();
                 }
@@ -52,7 +52,7 @@ namespace Aromat.CodeAnalysis
                 var length = _position -start;
                 var text = _text.Substring(start, length);
 
-                if(!int.TryParse(text, out var number))
+                if(!decimal.TryParse(text, out var number))
                 {
                     _dianostics.Add($"ERROR {text} is not a number");
                 }

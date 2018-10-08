@@ -18,9 +18,9 @@ namespace Aromat.CodeAnalysis
             yield return NumberToken; 
         }
 
-        public override int Calculate()
+        public override decimal Calculate()
         {
-            return (int)NumberToken.Value;
+            return (decimal)NumberToken.Value;
         }
     }
 }

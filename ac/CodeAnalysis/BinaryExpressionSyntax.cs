@@ -18,7 +18,7 @@ namespace Aromat.CodeAnalysis
         public SyntaxToken OperatorToken { get; }
         public ExpressionSyntax Right { get; }
 
-        public override int Calculate()
+        public override decimal Calculate()
         {
             if(OperatorToken.Kind == SyntaxKind.PlusToken)
             {

@@ -17,7 +17,7 @@ namespace Aromat.CodeAnalysis
         public ExpressionSyntax ExpressionSyntax { get; }
         public SyntaxNode CloseParenthesisToken { get; }
 
-        public override int Calculate()
+        public override decimal Calculate()
         {
             return ExpressionSyntax.Calculate();
         }

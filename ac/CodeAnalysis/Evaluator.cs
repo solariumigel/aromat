@@ -10,12 +10,12 @@
             _root = root;
         }
 
-        public int Evaluate()
+        public decimal Evaluate()
         {
             return EvaluateExpression(_root);
         }
 
-        private int EvaluateExpression(ExpressionSyntax root)
+        private decimal EvaluateExpression(ExpressionSyntax root)
         {
             return root.Calculate();
         }
